@@ -1,0 +1,49 @@
+body {
+	background-image: url("footyfield.jpg");
+	background-size: cover;
+}
+
+h1  {
+	text-align: center;
+	font-family: helvetica, sans-serif;
+	font-size: 42px;
+	color: #e6b30e;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+h2 {
+	text-align: center;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-family: helvetica, sans-serif;
+	font-size: 22px
+}
+
+h3 {
+	text-align: center;
+}
+
+p {
+	text-align: center;
+	font-family: sans-serif;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 22px;
+	font-weight: 1.5 em;
+}
+
+ul {
+	font-family: sans-serif;
+	color: white;
+	font-size: 2 em;
+	font-weight: 2 em;
+	text-align: left;
+}
+
+a {
+	font-family: sans-serif;
+	color: #e6b30e;
+	font-size: 2 em;
+	font-weight: black;
+	border-bottom-style: solid;
+}
