@@ -2,7 +2,8 @@ body {
 	background-image: url("footyfield.jpg");
 	background-size: cover;
 }
-h1 {
+
+h1  {
 	text-align: center;
 	font-family: helvetica, sans-serif;
 	font-size: 42px;
