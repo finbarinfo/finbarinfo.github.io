@@ -1,0 +1,46 @@
+
+body {
+	font: 18px helvetica;
+}
+
+
+header {
+	text-align: center;
+	background: #FFED74;
+	border: 3px black solid;
+	padding: 20px;
+	font: 24px helvetica, sans-serif;
+}
+
+nav {
+	text-align: : left;
+	background: #E8C66A;
+	text-align: center;
+	padding: 15px;
+	border: 3px solid black;
+}
+
+ul {
+	align-items: center;
+}
+
+section {
+	border: 3px solid black;
+	text-align: left;
+	background: #FFE2B8;
+	padding: 20px;
+}
+
+article {
+	text-align: center;
+	background: #E89C6C;
+	border: 3px solid black;
+}
+
+footer {
+	height: 20px;
+	background: #FF957E;
+	padding: 20px;
+	font-size: 16px;
+	border: 3px solid black;
+}
