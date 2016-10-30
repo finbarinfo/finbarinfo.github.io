@@ -1,0 +1,81 @@
+body {
+	background-image: url("images/door.jpg");
+	background-size: cover;
+	color: white;
+}
+
+header {
+	text-align: center;
+	font: 42px helvetica, sans-serif;
+	color: white;
+	background-color: black;
+	padding: .3em;
+}
+
+nav {
+	text-align: left;
+	color: white;
+	font-size: 12px;
+}
+
+a:hover { 
+    background-color: black;
+}
+
+h1 {
+	text-align: left;
+	font-family: "courier new", monospace;
+	font-size: 24px;
+	color: white;
+	padding-top: 20em
+}
+
+a {
+	font-family: helvetica,sans-serif;
+	color: white;
+	font-size: 2em;
+	text-decoration: none;
+}
+
+aside {
+	text-align: right;
+	font-family: "courier new", monospace;
+	font-size: 26px;
+}
+
+#right {
+  	background-color: pink;
+    font: white;
+    padding: 47px;
+    float: right;   
+    width: 25%;
+}
+
+#left {
+  	background-color: violet;
+    padding: 20px;
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+	
