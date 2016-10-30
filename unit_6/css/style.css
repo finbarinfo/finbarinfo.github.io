@@ -44,15 +44,14 @@ aside {
 }
 
 #right {
-  	background-color: pink;
     font: white;
     padding: 47px;
     float: right;   
     width: 25%;
+    background-color: black;
 }
 
 #left {
-  	background-color: violet;
     padding: 20px;
     float: left;
     width: 40%;
