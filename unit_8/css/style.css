@@ -1,7 +1,7 @@
 body {
 	background-image: url("images/door.jpg");
 	background-size: cover;
-	color: white;
+  color: white;
 }
 
 header {
@@ -9,123 +9,176 @@ header {
 	font: 42px helvetica, sans-serif;
 	color: white;
 	background-color: black;
-	padding: .3em;
+	padding: 1em;
 }
 
-nav {
-	text-align: left;
-	color: white;
-	font-size: 12px;
-	float: left;
-}
-
-a:hover { 
-    background-color: black;
-}
-
-h1 {
-	text-align: left;
-	font-family: "courier new", monospace;
-	font-size: 24px;
-	color: white;
-	padding-top: 20em
-}
-
-h2 {
-	font-family: helvetica,sans-serif;
-	color: white;
-	font-size: 2em;
-	text-decoration: none;
-}
-
-aside {
-	text-align: right;
-	font-family: "courier new", monospace;
-	font-size: 26px;
-}
-
-#right {
-    font: white;
-    padding: 47px;
-    float: right;   
-    width: 25%;
-    background-color: black;
-    margin-top: 10%;
-}
-
-#left {
-    padding: 20px;
-    float: left;
-    width: 40%;
-    text-align: left;
-}
-
-ul {
+ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
+    background-color: #333;
+  }
 
-a {
-    display: block;
-    color: white;
+  ul.topnav li {float: left;}
+
+  ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    font-family: helvetica,sans-serif;
-	font-size: 2em;
-	text-decoration: none;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+
 }
+
+ul.topnav li a:hover {background-color: #555;}
+
+ul.topnav li.icon {display: none;}
+
+h1 {
+	text-align: left;
+	font-family: "courier new", monospace;
+}
+
+aside {
+	text-align: left;
+	font-family: "courier new", monospace;
+  font-size: 24px;
+  width: 500px;
+  padding: 1em;
+}
+
+.section1 {
+    font: white;
+    float: right;   
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 70%;
+}
+
+.section2 {
+    background-color: #333;
+    float: right;
+    text-align: left;
+    margin-top: 4%;
+    margin-left: 70%;
+  }
 
 footer {
 	text-align: center;
-	font color: white;
+	font color: #333;
+  padding top: 2em;
 }
 
-@media only screen and (max-width: 800px)
-{
-	nav {
-      float: none;
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
   }
-  nav a {
-      	margin: 0 1.6em .75em 0;
-    }
-  #right, #left {
-    font-size: 1.4em;
-    line-height: 1.8em;
-  }
+
+  header {
+  text-align: center;
+  font: 28px helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  padding: 2em;
 }
 
-@media only screen and (max-width: 480px) {
-  h1, nav {
-    display: block;
-    text-align: center;
+  h1 {
+  text-align: left;
+  font-family: "courier new", monospace;
+  font font-weight: 20%;
+}
+
+aside {
+  text-align: left;
+  float: none;
+  font-family: "courier new", monospace;
+  font-size: 16px;
+  width: 300px;
+}
+
+.section1 {
+    font: white;
+    float: right;   
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 70%;
+    padding: 1em;
+
+}
+
+.section2 {
+    background-color: #333;
+    float: right;
+    text-align: left;
+    padding: 1em;
+    margin-top: 4%;
+    margin-left: 70%;
   }
-  nav a {
-    margin: 0 1em 1em;
+
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
   }
-  
-   	.section, div {
-    width: 100%;
-    padding: .6em;
-  }
-  
-	#right, #left {
+
+    ul.topnav.responsive li {
     float: none;
-    font-size: 1.4em;
-}
-    h2 {
-    font-size: 1em;
     display: inline;
   }
-    ul {
-    margin: 1.8em .6em 0;
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
   }
-    li {
-    width: 80%;
-      outline-width: .5em;
-      padding: .5em;
-    height: 2em;
-    line-height: 2em;
-  }
+
+  header {
+  text-align: center;
+  font: 28px helvetica, sans-serif;
+  color: white;
+  background-color: black;
+  padding: 2em;
 }
+
+h1 {
+  text-align: left;
+  font-family: "courier new", monospace;
+  font font-weight: 20%;
+}
+
+aside {
+  text-align: left;
+  float: none;
+  font-family: "courier new", monospace;
+  font-size: 16px;
+  width: 300px;
+}
+
+.section1 {
+    font: white;
+    float: right;   
+    background-color: black;
+    margin-top: 10%;
+    margin-left: 70%;
+    padding: 1em;
+
+}
+
+.section2 {
+    background-color: #333;
+    float: right;
+    text-align: left;
+    padding: 1em;
+    margin-top: 4%;
+    margin-left: 70%;
+  }
+
+}
+

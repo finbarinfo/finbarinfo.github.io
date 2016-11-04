@@ -4,43 +4,57 @@
 
 <head>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   	<title>Finbar Joseph</title>
   	
+    <script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+</script>
  
 </head>
-
 
 <body style="background-image:url(images/door.jpg)">
 
 <header>Solving business challenges with integrated creative solutions.</header>
 
-<nav>
-  <ul style="list-style: none;"><li>
-    <li><a href="#">Resume</a></li>
-    <li><a href="#">Portfolio</a></li>
-    <li><a href="mailto: finbarinfo@gmail.com">Contact</a></li>
-  </ul>
-</nav>
+<ul class="topnav" id="myTopnav">
+  <li><a href="#about">About</a></li>
+  <li><a href="#work">Work</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
 
+<section>
 <div class="section1">
     <aside id="right">
-    	<h2>Snapshot</h2>
-        <p>Integrated marketing leader with 10+ years experience developing and executing holistic growth strategies for leading B2B and B2C organizations. Strong manager and collaborator: skilled in directing, mentoring, and inspiring teams.<p>
+    	<h1>Snapshot</h1>
+        <p>Integrated marketing leader with 10+ years experience developing and executing holistic growth strategies for leading B2B and B2C organizations.<p>
     </aside>
   </div>
+</section>
 
-<div class="section2">
+<section>
+  <div class="section2">
   <aside id="left">
-    <ul>
-      <h1> Expertise:</h1>
-        <li>Marketing & Communications Strategy</li>
-        <li>Digital Trends & Media Execution</li>
-        <li>Managing Creative Development</li>
-        <li>Analyzing Marketing Effectiveness</li>
-    </ul>
+      <h1>Expertise</h1>
+        <li>Marketing & Communications</li>
+        <li>Digital Trends</li>
+        <li>Media Execution</li>
+        <li>Creative Development</li>
+        <li>Marketing Effectiveness</li>
   </aside>
-</div>
-
+  </div>
+</section>
 
 </body>
 
